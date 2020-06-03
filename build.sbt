@@ -12,6 +12,6 @@ libraryDependencies ++= Seq(
 	//"org.apache.spark" % "spark-sql-kafka-0-10_2.11" % sparkVersion,
 	//"org.apache.spark" % "spark-streaming-kafka-0-8_2.11" % sparkVersion,
 	//"org.apache.spark" %% "spark-streaming-kinesis-asl" % sparkVersion,
-	//"org.apache.bahir" %% "spark-streaming-twitter" % "2.2.0",
+	"org.apache.bahir" %% "spark-streaming-twitter" % twitterVersion,
 	//"com.amazonaws" % "amazon-kinesis-client" % "1.8.9"
 )
